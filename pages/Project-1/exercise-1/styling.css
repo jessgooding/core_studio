@@ -13,7 +13,7 @@ font-family: 'Work Sans', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  background-color: rgba(251, 201, 33, 0.7);
+  background-color: rgba(52, 121, 77, 1);
   width:278px;
   height: 7800px;
   z-index: 2;
@@ -151,9 +151,10 @@ font-family: 'Work Sans', sans-serif;
   position: absolute;
   z-index: 4;
   border: 2.5px black solid;
-  background-color: rgba(240, 145, 103, 0.7); 
+  background-color: rgba(235,77,65,0.8);
   padding: 10px 60px 10px 60px;
   font-size: 20px;
+  text-decoration: none;
 
 }
 
@@ -301,7 +302,7 @@ font-family: 'Work Sans', sans-serif;
   height:300px;
   z-index: 3;
   position: absolute;
-  background-color: pink;
+  background-color: rgba(235,77,65,0.8);
   border: 2.5px black solid;
   margin-top: 220px;
   margin-left: 260px;
@@ -314,7 +315,7 @@ font-family: 'Work Sans', sans-serif;
   height:220px;
   z-index: 3;
   position: absolute;
-  background-color: rgba(251, 201, 33, 0.7);
+  background-color: rgba(246, 240, 201, 1);
   border: 2.5px black solid;
   margin-top: 460px;
 
@@ -331,7 +332,7 @@ font-family: 'Work Sans', sans-serif;
   margin-left: 19.8vw;
   z-index: 3;
   position: absolute;
-  background-color: rgba(36, 87, 46, 0.7);
+  background-color: rgba(98, 141, 204, 1);
   border: 2.5px black solid;
   display: none;
 
