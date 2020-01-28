@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Playfair Display', serif;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -15,16 +15,15 @@ body, html {
 
 }
 .name {
-	color: pink;
+	color: black;
 }
 .section {
-    background-color: red;
+    background-color: black;
     color: white;
     display: inline-block;
     width: 20em;
     height: 20em;
     transition: 0.3s ease-in-out;
-    border-radius: 10em;
 
 }
 
@@ -36,7 +35,7 @@ body, html {
 
 .section:hover {
 	background-color: white;
-	color: red;
+	color: black;
 }
 
 a {
