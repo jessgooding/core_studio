@@ -15,7 +15,7 @@ font-family: 'Work Sans', sans-serif;
   padding: 0;
   background-color: rgba(52, 121, 77, 1);
   width:278px;
-  height: 11000px;
+  height: 12000px;
   z-index: 2;
   position: absolute;
 
@@ -48,7 +48,7 @@ font-family: 'Work Sans', sans-serif;
 .left-text5 {
   margin-left: 8px;
   font-size: 20px;
-  margin-top: 4000px;
+  margin-top: 4100px;
 }
 
 .left-text6 {
@@ -57,10 +57,29 @@ font-family: 'Work Sans', sans-serif;
   margin-top: 2350px;
 }
 
+.left-text6-1 {
+  margin-left: 8px;
+  font-size: 20px;
+  margin-top: 520px;
+}
+
+.left-text6-2 {
+  margin-left: 8px;
+  font-size: 20px;
+  margin-top: 720px;
+}
+
+.left-text6-3 {
+  margin-left: 8px;
+  font-size: 20px;
+  margin-top: 270px;
+}
+
+
 .left-text7 {
   margin-left: 8px;
   font-size: 20px;
-  margin-top: 1300px;
+  margin-top: 820px;
 }
 
 .left-text8 {
@@ -178,7 +197,7 @@ font-family: 'Work Sans', sans-serif;
 
 .clickme2 {
   margin-left: 50vw;
-  margin-top: 9100px;
+  margin-top: 10300px;
   text-align:center;
   float: center;
   position: absolute;
@@ -193,7 +212,7 @@ font-family: 'Work Sans', sans-serif;
 
 .clickme3 {
   margin-left: 50vw;
-  margin-top: 9250px;
+  margin-top: 10450px;
   text-align:center;
   float: center;
   position: absolute;
@@ -303,7 +322,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .para3 {
-  margin-top: 5390px;
+  margin-top: 5500px;
   font-size: 18px;
   width:40vw;
   height:250px;
@@ -312,7 +331,7 @@ font-family: 'Work Sans', sans-serif;
 
 /*image*/
 .image {
-  margin-left: 19.9vw;
+  margin-left: 30vw;
   margin-top: 1370px;
   float: center;
   position: absolute;
@@ -322,7 +341,7 @@ font-family: 'Work Sans', sans-serif;
 
 .sketch1 {
   margin-left: 30vw;
-  margin-top: 5750px;
+  margin-top: 5850px;
   float: center;
   position: absolute;
   z-index: 4;
@@ -330,7 +349,7 @@ font-family: 'Work Sans', sans-serif;
 
 .sketch2 {
   margin-left: 30vw;
-  margin-top: 6390px;
+  margin-top: 6490px;
   float: center;
   position: absolute;
   z-index: 4;
@@ -338,7 +357,7 @@ font-family: 'Work Sans', sans-serif;
 
 .sketch3 {
   margin-left: 30vw;
-  margin-top: 7030px;
+  margin-top: 7130px;
   float: center;
   position: absolute;
   z-index: 4;
@@ -346,7 +365,15 @@ font-family: 'Work Sans', sans-serif;
 
 .wireflows {
   margin-left: 30vw;
-  margin-top: 8300px;
+  margin-top: 9450px;
+  float: center;
+  position: absolute;
+  z-index: 4;
+}
+
+.draft-two {
+  margin-left: 30vw;
+  margin-top: 8410px;
   float: center;
   position: absolute;
   z-index: 4;
@@ -354,23 +381,23 @@ font-family: 'Work Sans', sans-serif;
 
 .simple {
   margin-left: 30vw;
-  margin-top: 7770px;
+  margin-top: 7870px;
   float: center;
   position: absolute;
   z-index: 4;
 }
 
 .finito {
-  margin-left: 25vw;
-  margin-top: 9400px;
+  margin-left: 30vw;
+  margin-top: 10600px;
   float: center;
   position: absolute;
   z-index: 4;
 }
 
 .finito2 {
-  margin-left: 25vw;
-  margin-top: 10050px;
+  margin-left: 28vw;
+  margin-top: 11200px;
   float: center;
   position: absolute;
   z-index: 4;
@@ -409,7 +436,7 @@ font-family: 'Work Sans', sans-serif;
 .box3 {
   width:600px;
   height:310px;
-  margin-top: 5380px;
+  margin-top: 5500px;
   margin-left: 19.8vw;
   z-index: 3;
   position: absolute;
@@ -420,6 +447,76 @@ font-family: 'Work Sans', sans-serif;
 
 }
 
+.box4 {
+  width:40vw;
+  height:350px;
+  z-index: 5;
+  position: absolute;
+  background-color: rgba(246, 240, 201, 1);
+  border: 2.5px black solid;
+  margin-top: 5020px;
+
+  -ms-transform: skewY(-20deg); /* IE 9 */
+  -webkit-transform: skewY(-20deg); /* Safari 3-8 */
+  transform: skewY(-20deg);
+  
+}
+
+.box5 {
+  width: 80px;
+  height: 80px;
+  z-index: 5;
+  position: absolute;
+  background-color: #95A2BF;
+  margin-top: 9160px;
+  margin-left: 25vw;
+}
+
+.box6 {
+  width: 80px;
+  height: 80px;
+  z-index: 5;
+  position: absolute;
+  background-color: #D09846;
+  margin-top: 9160px;
+  margin-left: 37vw;
+}
+
+.box7 {
+  width: 80px;
+  height: 80px;
+  z-index: 5;
+  position: absolute;
+  background-color: #AABAAF;
+  margin-top: 9260px;
+  margin-left: 25vw;
+}
+
+.box8 {
+  width: 80px;
+  height: 80px;
+  z-index: 5;
+  position: absolute;
+  background-color: #213B4D;
+  margin-top: 9260px;
+  margin-left: 37vw;
+}
+
+.font1 {
+
+  z-index: 5;
+  position: absolute;
+  margin-top: 9130px;
+  margin-left: 57vw;
+}
+
+.font2 {
+
+  z-index: 5;
+  position: absolute;
+  margin-top: 9240px;
+  margin-left: 56vw;
+}
 
 
 a:hover + .box1, .box1:hover {
