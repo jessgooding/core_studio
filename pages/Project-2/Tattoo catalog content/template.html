@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalog Application</title>
+	<link href="https://fonts.googleapis.com/css?family=Antic+Didone&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+	body, html {
+		font-family: 'Antic Didone', serif;
+		top:0;
+		left:0;
+		width:100%:;
+		margin:0%;
+	}
+	h1 {
+		font-size:1em;
+	}
+	.sticky {
+		position:fixed;
+		margin:5%;
+		color:white;
+		border-bottom:1em solid gold;
+	}
+	.exercise {
+		top:0;
+		left:0%;
+	}
+	.content {
+		padding:5%;
+		width:90%;
+		min-height:100vh;
+		max-height:fit-content;
+		text-align:right;
+	}
+	.content h1 {
+		font-size:3em;
+		font-weight:800;
+		text-align:left;
+		opacity:0.5;
+	}
+	.content p {
+		font-size:4em;
+		color:white;
+	}
+	.content img {
+		width:50%;
+		transition:0.25s ease-in-out;
+	}
+	#one, #three {
+		background-color:#008cff;
+		color:#f2f2f2;
+	}
+	#two, #four {
+		background-color:#0cd7e8;
+	}
+	a {
+		background-color:transparent;
+		padding:2%;
+		border:0.5em solid gold;
+		text-decoration: none;
+		color:white;
+		transition:0.25s ease-in-out;
+		display: block;
+    	width: fit-content
+	}
+	a:hover{
+		background-color:gold;
+		color:#008cff;
+	}
+</style>
+<body>
+	<!-- Exercise 1 materials -->
+	<div class='exercise'>
+		<h1 class='sticky'>Catalog Application</h1>
+		<!-- Research question -->
+		<div class='content' id='one'>
+			<h1>Catalog Content</h1>
+			<p>Tattoos at Design Schools in New York</p>
+		</div>
+		<!-- User survey -->
+		<div class='content' id='two'>
+			<h1>User survey</h1>
+			<p>What's your name?</p>
+			<p>What's the tattoo of?</p>
+			<p>How old are you currently?</p>
+			<p>How old were you when you got the tattoo?</p>
+			<p>How many tattoos do you have in total?</p>
+			<p>How much did you spend on this tattoo?</p>
+			<p>Where did you get it done?</p>
+			<p>How long did it take?</p>
+			<p>How impulsive was it?</p>
+			<p>Can you send me a photo of it?</p>
+			<p>Is there any meaning behind it?</p>
+			<p>Is it your own art?</p>
+			<a href="https://docs.google.com/spreadsheets/d/1adx6iq1IGJZag8VBIPbau_VI1wxQjrFu7MiHMvU36gs/edit?usp=sharing" target="new">Link to Google Spreadsheets</a>
+		</div>
+		<!-- Results of user survey -->
+		<div class='content' id='three'>
+			<h1>Sketches</h1>
+			<!-- image link -->
+			<img src="sketch1.jpg">
+			<img src="sketch2.jpg">
+			<img src="sketch3.jpg">
+		</div>
+		<!-- Ideation basd on survey-->
+
+	</div>
+
+</body>
+</html>

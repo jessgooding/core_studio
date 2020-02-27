@@ -406,8 +406,8 @@ font-family: 'Work Sans', sans-serif;
 /*BOXES*/
 
 .box1 {
-  width:58vw;
-  height:300px;
+  width:55vw;
+  height: 100px;
   z-index: 3;
   position: absolute;
   background-color: rgba(235,77,65,0.8);
