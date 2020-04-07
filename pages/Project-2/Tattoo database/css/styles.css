@@ -620,7 +620,11 @@ html.w-mod-touch * {
   font-weight: lighter;
 }
 
+
+
 .hover:hover {
   color: grey;
-}
+  text-decoration: none;
+  font-weight: lighter;
+}*/
 
