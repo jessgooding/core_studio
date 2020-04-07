@@ -1,4 +1,9 @@
 /*CSS 0*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 h1,
 h2,
@@ -46,6 +51,7 @@ p {
 
 html {
   height: 100%;
+  width: 100vw;
 }
 body {
   margin: 0;
@@ -604,5 +610,17 @@ html.w-mod-touch * {
   grid-row-start: 6;
   -ms-grid-row-span: 6;
   grid-row-end: 12;
+}
+
+/*HOVER*/
+
+.hover {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.hover:hover {
+  color: grey;
 }
 
