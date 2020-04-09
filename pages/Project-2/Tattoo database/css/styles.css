@@ -194,12 +194,36 @@ html.w-mod-touch * {
   text-decoration: none;
 }
 
+.two {
+  display: block;
+  padding-left: 2000px;
+  float: right;
+  color: #000;
+  font-size: 80px;
+  font-weight: 200;
+  text-decoration: none;
+
+}
+
 .link-2 {
   float: right;
   color: #000;
   font-size: 80px;
   font-weight: 200;
   text-decoration: none;
+}
+
+.boop {
+  
+  color: #000;
+  font-size: 40px;
+  font-weight: 200;
+  text-decoration: none;
+  font-family: Marcellus, sans-serif;
+  margin-top: 300px;
+  padding-top: 500px;
+  margin-left: 600px;
+  margin-bottom: 300px;
 }
 
 .line1 {
@@ -618,6 +642,7 @@ html.w-mod-touch * {
   text-decoration: none;
   color: black;
   font-weight: lighter;
+  position: relative;
 }
 
 
@@ -626,5 +651,213 @@ html.w-mod-touch * {
   color: grey;
   text-decoration: none;
   font-weight: lighter;
-}*/
+  position: relative;
+}
 
+
+.hover1 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 509px;
+}
+
+
+
+.hover1:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover0 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 483px;
+}
+
+
+
+.hover0:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+
+.hover2 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 460px;
+}
+
+
+
+.hover2:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover3 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 320px;
+}
+
+
+
+.hover3:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover4 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 365px;
+}
+
+.hover4:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover5 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 480px;
+}
+
+.hover5:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+
+.hover6 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 640px;
+}
+
+.hover6:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover7 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 180px;
+}
+
+.hover7:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+
+.hover8 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 504px;
+}
+
+.hover8:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover9 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 867px;
+}
+
+.hover9:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover10 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 810px;
+}
+
+.hover10:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+
+.hover11 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 305px;
+}
+
+.hover11:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
+
+.hover12 {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 870px;
+}
+
+.hover12:hover {
+  color: grey;
+  text-decoration: none;
+  font-weight: lighter;
+  position: relative;
+}
