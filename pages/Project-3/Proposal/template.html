@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalog Application</title>
+	<link href="https://fonts.googleapis.com/css?family=Antic+Didone&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+	body, html {
+		font-family: 'Antic Didone', serif;
+		top:0;
+		left:0;
+		width:100%:;
+		margin:0%;
+	}
+	h1 {
+		font-size:1em;
+	}
+	.sticky {
+		position:fixed;
+		margin:5%;
+		color:white;
+		border-bottom:1em solid #4b0700;
+	}
+	.exercise {
+		top:0;
+		left:0%;
+	}
+	.content {
+		padding:5%;
+		width:90%;
+		min-height:100vh;
+		max-height:fit-content;
+		text-align:right;
+	}
+	.content h1 {
+		font-size:3em;
+		font-weight:800;
+		text-align:left;
+		opacity:0.5;
+	}
+	.content p {
+		font-size:3em;
+		color:white;
+		text-align: left;
+	}
+	.content img {
+		width:50%;
+		transition:0.25s ease-in-out;
+	}
+	#one, #three {
+		background-color:black;
+		color:#f2f2f2;
+	}
+	#two, #four {
+		background-color:#bfb2a2;
+		color: black;
+	}
+	a {
+		background-color:transparent;
+		padding:2%;
+		border:0.5em solid gold;
+		text-decoration: none;
+		color:white;
+		transition:0.25s ease-in-out;
+		display: block;
+    	width: fit-content
+	}
+	a:hover{
+		background-color:gold;
+		color:#008cff;
+	}
+
+	p{
+		font-size: 10px;
+	}
+</style>
+<body>
+	<!-- Exercise 1 materials -->
+	<div class='exercise'>
+		<h1 class='sticky'>Proposal</h1>
+		<!-- Research question -->
+		<div class='content' id='one'>
+			<h1>Proposal</h1>
+			<p>Selected collection of Photographers work</p>
+		</div>
+		<!-- User survey -->
+		<div class='content' id='two'>
+			<h1>Proposal</h1>
+			<p>My idea for the microinteractions based application is to have pages featuring a small collection of work from a few of my favorite photographers.</p>
+			<p>After swiping down from the title page (where I intend on having a microinteraction to make the transition smooth) there will be a page with a swiping library and two toggle switches beneath it.</p>
+			<p>These switches will be labeled 'Inverse' and 'Black & White' and when clicked the toggle will swap over and change color.</p>
+		</div>
+		<!-- Results of user survey -->
+		<div class='content' id='three'>
+			<h1>Sketches</h1>
+			<!-- image link -->
+			<img src="sketch.jpg">
+		</div>
+		<!-- Ideation basd on survey-->
+
+	</div>
+
+</body>
+</html>
