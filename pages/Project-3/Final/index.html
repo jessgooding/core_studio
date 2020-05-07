@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" type="text/css" rel="stylesheet">
+	<title>Photo Gallery </title>
+	<link rel="stylesheet" href="https://use.typekit.net/fez6oll.css">
+	<link rel="stylesheet" href="https://use.typekit.net/fez6oll.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".one").click(function(){
+    $(".img1").toggleClass("gray");
+  });
+});
+
+$(document).ready(function(){
+  $(".two").click(function(){
+    $(".img1").toggleClass("invert");
+  });
+});
+</script>
+
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+	<div class="page1">
+		<div class="name">ERIKA <br>KAMANO</div>
+		<img class="background" src="assets/background.png" style="width:100vw;height:100vh;"> 
+		<div class="title">PHOTOGRAPHER <br>GALLERY</div>	
+	</div>
+	<div class="page2">
+		<div class="slider-container">
+			<span id="slider-image1"></span>
+			<span id="slider-image2"></span>
+			<span id="slider-image3"></span>
+			<div class="image-container">
+				<img src="assets/erika1.png" class="slider-image img1" >
+				<img src="assets/erika2.png" class="slider-image img1">
+				<img src="assets/erika3.png" class="slider-image img1">
+			</div>
+			<div class="button-container">
+				<a href="#slider-image1" class="slider-button"></a>
+				<a href="#slider-image2" class="slider-button"></a>
+				<a href="#slider-image3" class="slider-button"></a>
+			</div>
+	</div>
+	<div class="switch-container">
+			<label class="switch">
+				<input class="one" type="checkbox" checked="">
+				<span class="beep round"></span>
+
+			</label>
+		<div class="switch-label">B&W</div>
+			<label class="switch1">
+				<input class="two" type="checkbox" checked="">
+				<span class="beep round"></span>
+			</label>
+		<div class="switch-label">INVERSE</div>
+	</div>
+	<div class="line" ></div>
+	<div class="name1">ERIKA KAMANO</div>
+	<div class="line" ></div>
+	<p>Erika Kamano is a photographer and visual artist based in London and Los Angeles. Her photographer focuses mainly on women in the arts. She has shot for publishings such as Wonderland, Sicky mag and Tank magazine.</p>
+
+
+<!--<script>
+function myFunction() {
+  document.getElementById("img1").style.webkitFilter = "grayscale(100%)";
+}
+
+function myFunction1() {
+  document.getElementById("img1").style.webkitFilter = "none";
+}
+
+</script> -->
+
+
+</body>
+
+</html>
